@@ -1,0 +1,50 @@
+:root {
+    --vermelho-dark: #8b0000;
+    --branco: #FFFFFF;
+}
+
+.fonte-titulo {
+    font-family: 'Pacifico', cursive;
+}
+
+.imagem-carrossel-um {
+    object-fit: cover;
+    object-position: 0 80%;
+    height: 400px;
+}
+
+.imagem-carrossel-dois {
+    object-fit: cover;
+    height: 400px;
+}
+
+.cor-especial {
+    color: var(--vermelho-dark);
+}
+
+.botao-cor-especial {
+    background-color: var(--vermelho-dark);
+    color: var(--branco);
+}
+
+.borda-cor-especial {
+    border-color: var(--vermelho-dark);
+}
+
+.card-largura {
+    max-width: 18rem;
+}
+
+.card-posicao-imagem {
+    object-fit: cover;
+    height: 200px;
+
+}
+
+.link-footer {
+    text-decoration: none;
+}
+
+.link-footer:hover {
+    text-decoration: underline;
+}
